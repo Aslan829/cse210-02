@@ -5,7 +5,7 @@ namespace cse210_02
 {
     public class Deck
     {
-        
+        //Makes the list of cards
         public List<int> cardDeck;
         public int nextCard;
         
@@ -17,6 +17,7 @@ namespace cse210_02
 
         }
 
+        //Set the "next card" variable
         public int SetNextCard(){
             nextCard = this.cardDeck[0];
             return nextCard;
@@ -30,7 +31,6 @@ namespace cse210_02
             var shuffleList = new List<int>();
 
             //set up the new deck of 13 cards with random numbers 1-13.
-           // for (int i = 0; i < 12; i++){
                 int whileNum = 0;
                 do 
                 {
