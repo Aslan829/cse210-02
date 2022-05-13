@@ -4,16 +4,16 @@ namespace cse210_02
 {
     public class Player
     {
-        public int startingPoints = 300;
+        public int startingPoints = 100;
 
         public int AddPoints(int points){
-            points += 100;
-            return points;
+            int newPoints = points + 100;
+            return newPoints;
         }
 
         public int RemovePoints(int points){
-            points -= 75;
-            return points;
+            int newPoints = points - 75;
+            return newPoints;
         }
 
 
